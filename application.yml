@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: 
+    -dev
+---
+spring:
+  prifiles: dev
+  application:
+    name: micsoftspringcloud-config-dev
+---
+spring:
+  profiles: test
+  application:
+    name: micsoftspringcloud-config-test
+  
